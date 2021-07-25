@@ -685,6 +685,7 @@ div.work__card img:active {
 .contact-container {
   object-fit: cover;
   margin: 2rem;
+  width: 80%;
   clip-path: polygon(50% 0%, 100% 10%, 100% 90%, 50% 100%, 0 90%, 0 10%);
   background-image: url("./img/contact_1.jpg");
   background-size: cover;
@@ -693,10 +694,11 @@ div.work__card img:active {
 }
 
 .contact-div {
-  background: rgba(49, 49, 49, 0.507);
+  background: rgba(49, 49, 49, 0.747);
   padding: 5rem;
   margin: 4rem auto;
   text-align: center;
+  color: #00ffdd;
 
   clip-path: polygon(
     0% 0%,
@@ -714,7 +716,7 @@ div.work__card img:active {
   justify-content: center;
 }
 .contact-text {
-  color: #020c0b;
+  color: #0bfae2;
   font-size: calc(1rem + 1vw);
   align-items: center;
   text-align: center;
@@ -730,6 +732,9 @@ div.work__card img:active {
   padding: 1rem;
   margin: 2rem;
   margin-bottom: 5rem;
+}
+.btn-contact:hover {
+  background-color: rgb(22, 153, 189);
 }
 .section-title {
   text-transform: uppercase;
@@ -856,10 +861,11 @@ div.work__card img:active {
     border-radius: 2rem;
     /* border- */
   }
-
+  .contact {
+  }
   .contact-container {
     object-fit: cover;
-    /* background-color: rgb(0, 255, 255); */
+    background-color: rgb(0, 255, 255);
     width: 100%;
     margin: 2rem;
 
